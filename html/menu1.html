@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>얼굴관리</title>
+  <link rel="stylesheet" href="../css/mystyle.css">
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 60%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+  </style>
+</head>
+<body>
+  <svg height="120" width="100%">
+    <!-- <defs> 요소는 그래픽 객체를 정의, <def> 요소 내에서 만든 객체는 출력되는 것은 아님
+         나중에 사용하려면 fill 속성에 참조 연결하거나 <use> 요소를 이용해야함 
+         <def> 요소 내에 선형그레디언트 정의 -->
+    <defs>
+      <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
+        <stop offset="100%" style="stop-color:rgb(0,255,255);stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    <rect fill="url(#grad1)" x="0" y="0" width="100%" height="120" />
+    <text fill="#cccccc" font-size="60" font-family="Verdana" x="50" y="80">얼굴관리</text>
+    Sorry, your browser does not support inline SVG.
+  </svg>
+    
+  <ul>
+    <li><a class="active" href="https://kyj010101.github.io/home">Home</a></li>
+    <li><a href="./manu1.html">얼굴관리</a></li>
+    <li><a href="./manu2.html">에너지테라피,근막관리</a></li>
+    <li><a href="./manu3.html">림포테라피</a></li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Dropdown</a>
+      <div class="dropdown-content" >
+        <a href="http://www.google.com">구글</a>
+        <a href="http://www.youtube.com">유튜브</a>
+        <a href="http://www.naver.com">네이버</a>
+      </div>
+    </li>
+  </ul>
+
+  <h2>투앤티스 스킨앤바디 프로그램</h2>
+
+  <table>
+    <tr>
+      <th><img src="../image/log.jpg" alt="로고"></th>
+      <th>program</th>
+      <th>price</th>
+    </tr>
+    <tr>
+      <td>얼굴관리</td>
+      <td>수분부족,노화,탄력</td>
+      <td>50.000</td>
+    </tr>
+    <tr>
+      <td>스페셜 아로마</td>
+      <td>훼이스 관리</td>
+      <td>60.000</td>
+    </tr>
+    <tr>
+      <td>플라즈마</td>
+      <td>문제성 피부관리</td>
+      <td>80.000</td>
+    </tr>
+    <tr>
+      <td>플라즈마+등관리</td>
+      <td>여드름 피부</td>
+      <td>120.000</td>
+    </tr>
+    <tr>
+      <td>맞춤형 윤곽관리</td>
+      <td>5회, 체험가</td>
+      <td>450.000</td>
+    </tr>
+    <tr>
+      <td>에너지 테라피  1hour</td>
+      <td>림프배농, 군환, 근막관리</td>
+      <td>100.000</td>
+    </tr>
+  </table>  
+</body>
+</html>
